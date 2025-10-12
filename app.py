@@ -7,9 +7,9 @@ from datetime import datetime
 # 1. SECURITY AND SETUP CONFIGURATION
 # ====================================================================
 
-# This must be set on the hosting service as a SECRET VARIABLE
-# (I will show you where to put this later)
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN") 
+# We are hardcoding the token because PythonAnywhere's free tier
+# does not easily read environment variables for tasks.
+BOT_TOKEN = "7850840141:AAEgbDSJtGT8i88uFeAzzqsvQIOG8LyZXDg"
 
 # YOUR UNIQUE USER ID - Only this ID can use the bot!
 # --------------------------------------------------------------------
