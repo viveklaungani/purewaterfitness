@@ -9,7 +9,7 @@ from datetime import datetime
 
 # We are hardcoding the token because PythonAnywhere's free tier
 # does not easily read environment variables for tasks.
-BOT_TOKEN = "7850840141:AAEgbDSJtGT8i88uFeAzzqsvQIOG8LyZXDg"
+BOT_TOKEN = "TELEGRAM_BOT_TOKEN"
 
 # YOUR UNIQUE USER ID - Only this ID can use the bot!
 # --------------------------------------------------------------------
